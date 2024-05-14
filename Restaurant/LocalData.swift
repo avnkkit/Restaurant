@@ -1,19 +1,9 @@
-//
-//  LocalData.swift
-//  Restaurant
-//
-//  Created by Denis Bystruev on 25/12/2018.
-//  Copyright © 2018 Denis Bystruev. All rights reserved.
-//
+
 
 import Foundation
 
-/// Used to provide local data for debug purposes
 struct LocalData {
-    /// Use local data instead of remote server
     static let isLocal = true
-    
-    /// List of categories the app should return
     static let categories = [
         "appetizers",
         "entrees",

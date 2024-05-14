@@ -1,14 +1,5 @@
-//
-//  MenuItem.swift
-//  Restaurant
-//
-//  Created by Denis Bystruev on 06/06/2018.
-//  Copyright © 2018 Denis Bystruev. All rights reserved.
-//
 
 import Foundation
-
-// Properties correspond to the keys listed in the API
 struct MenuItem: Codable {
     var id: Int
     var name: String
@@ -26,8 +17,6 @@ struct MenuItem: Codable {
         case imageURL = "image_url"
     }
 }
-
-// The top key returned by API is called items
 struct MenuItems: Codable {
     let items: [MenuItem]
 }
